@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #444444;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
@@ -111,18 +111,18 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #42bfdd;
+		color: #0056b3;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #42bfdd !important;
+			color: #004494 !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #787878;
+		color: #222222;
 		font-weight: 400;
 	}
 
@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #222222;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -260,7 +260,7 @@ input, select, textarea {
 	}
 
   .equalfirst{
-		color: #42bfdd;
+		color: #0056b3;
 		font-size: larger;
 	}
 
@@ -269,7 +269,7 @@ input, select, textarea {
 	}
 
 	.paper{
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 	}
 
 	.talks{
@@ -1880,7 +1880,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #42bfdd;
+			border-color: #0056b3;
 		}
 
 	select {
@@ -1985,7 +1985,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #42bfdd;
+			border-color: #0056b3;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2503,17 +2503,17 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #42bfdd;
-			color: #42bfdd !important;
+			border-color: #004494;
+			color: #004494 !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #42bfdd;
-			color: #42bfdd !important;
+			background-color: rgba(0, 86, 179, 0.1);
+			border-color: #003370;
+			color: #003370 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2556,8 +2556,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #42bfdd;
-			border-color: #42bfdd;
+			background-color: #0056b3;
+			border-color: #0056b3;
 			color: #ffffff !important;
 		}
 
@@ -2565,16 +2565,16 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #5cc6a7;
-				border-color: #5cc6a7;
+				background-color: #004494;
+				border-color: #004494;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #3eb08f;
-				border-color: #3eb08f;
+				background-color: #003370;
+				border-color: #003370;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2663,7 +2663,7 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #787878;
+			color: #222222;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2671,7 +2671,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: #a2a2a2;
+			color: #444444;
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
